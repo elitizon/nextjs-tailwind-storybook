@@ -4,12 +4,48 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "cross-env NODE_ENV=production run-s build:tailwind",
     "build": "next build",
-    "start": "next start"
+    "start": "npm-run-all build:tailwind --parallel watch:tailwind start:react",
+    "start:react": "next start",
+    "build:tailwind": "tailwind build styles/tailwind.css -o styles/tailwind.output.css",
+    "watch:tailwind": "chokidar '/**/*.css' '/**/*.scss' --ignore styles/tailwind.output.css -c 'npm run build:tailwind'",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@next/plugin-storybook": "^10.0.5",
+    "@storybook/addon-actions": "^6.1.14",
+    "@storybook/addon-essentials": "^6.1.14",
+    "@storybook/addon-links": "^6.1.14",
+    "@storybook/addon-viewport": "^6.1.14",
+    "@storybook/addons": "^6.1.14",
+    "@storybook/node-logger": "^6.1.14",
+    "@storybook/react": "^6.1.14",
+    "@storybook/theming": "^6.1.14",
+    "@svgr/webpack": "^5.5.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.21",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "autoprefixer": "^10.2.1",
+    "chokidar": "^3.5.1",
+    "chokidar-cli": "^2.1.0",
+    "cross-env": "^7.0.3",
+    "ignore-loader": "^0.1.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "postcss-loader": "^4.1.0",
+    "sharp": "^0.27.0",
+    "storybook": "^6.1.14",
+    "storybook-addon-next-router": "^2.0.3",
+    "tailwindcss": "^2.0.2",
+    "typescript": "^4.1.3"
   }
 }
