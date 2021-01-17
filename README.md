@@ -23,7 +23,6 @@ This template is available at [https://github.com/elitizon/reactapp-tailwind-sto
 - git init .
 - git add .
 - git commit -m "First commit"
-  `
 
 ## Structure of the template
 
@@ -89,8 +88,6 @@ Run the project in the dev mode.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The tailwindcss stylesheet is compiled each time thanks to [Chodikar](https://github.com/paulmillr/chokidar) a great file watcher.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
