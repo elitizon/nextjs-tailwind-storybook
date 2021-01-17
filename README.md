@@ -14,7 +14,7 @@ You are welcome to contribute to this project to make it better. Contact us at [
 
 Created with ❤️ by [Elitizon](https://www.elitizon.com)
 
-This template is available at [https://github.com/elitizon/reactapp-tailwind-storybook](https://github.com/elitizon/reactapp-tailwind-storybook)
+This template is available at [https://github.com/elitizon/nextjs-tailwind-storybook](https://github.com/elitizon/nextjs-tailwind-storybook)
 
 ## To use this template:
 
