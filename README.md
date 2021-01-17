@@ -73,7 +73,7 @@ In the project directory, you can run:
 
 **Results:**
 
-````bash
+```bash
 ready - started server on http://localhost:3000
    ✅ purgeEnabled=false
 
@@ -105,6 +105,12 @@ Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+> If you get an error that contained this line:
+
+Use this command:
+
+`brew install watchman`
 
 ### 👉`yarn build`
 
