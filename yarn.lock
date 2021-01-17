@@ -894,7 +894,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.12.1"
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/preset-env@^7.1.6", "@babel/preset-env@^7.12.1":
+"@babel/preset-env@^7.1.6", "@babel/preset-env@^7.12.1", "@babel/preset-env@^7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.12.11.tgz#55d5f7981487365c93dbbc84507b1c7215e857f9"
   integrity sha512-j8Tb+KKIXKYlDBQyIOy4BLxzv1NUOwlHfZ74rvW+Z0Gp4/cI2IMDPBWAgWceGcE7aep9oL/0K9mlzlMGxA8yNw==
@@ -985,7 +985,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-react@^7.12.1", "@babel/preset-react@^7.12.5":
+"@babel/preset-react@^7.12.1", "@babel/preset-react@^7.12.10", "@babel/preset-react@^7.12.5":
   version "7.12.10"
   resolved "https://registry.yarnpkg.com/@babel/preset-react/-/preset-react-7.12.10.tgz#4fed65f296cbb0f5fb09de6be8cddc85cc909be9"
   integrity sha512-vtQNjaHRl4DUpp+t+g4wvTHsLQuye+n0H/wsXIZRn69oz/fvNC7gQ4IK73zGJBaxvHoxElDvnYCthMcT7uzFoQ==
@@ -10485,7 +10485,7 @@ react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-is@^17.0.1:
+"react-is@^16.12.0 || ^17.0.0", react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
@@ -10517,6 +10517,14 @@ react-refresh@0.8.3, react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
+react-shallow-renderer@^16.13.1:
+  version "16.14.1"
+  resolved "https://registry.yarnpkg.com/react-shallow-renderer/-/react-shallow-renderer-16.14.1.tgz#bf0d02df8a519a558fd9b8215442efa5c840e124"
+  integrity sha512-rkIMcQi01/+kxiTE9D3fdS959U1g7gs+/rborw++42m1O9FAQiNI/UNRZExVUoAOprn4umcXf+pFRou8i4zuBg==
+  dependencies:
+    object-assign "^4.1.1"
+    react-is "^16.12.0 || ^17.0.0"
+
 react-sizeme@^2.6.7:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/react-sizeme/-/react-sizeme-2.6.12.tgz#ed207be5476f4a85bf364e92042520499455453e"
@@ -10537,6 +10545,16 @@ react-syntax-highlighter@^13.5.0:
     lowlight "^1.14.0"
     prismjs "^1.21.0"
     refractor "^3.1.0"
+
+react-test-renderer@^17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-17.0.1.tgz#3187e636c3063e6ae498aedf21ecf972721574c7"
+  integrity sha512-/dRae3mj6aObwkjCcxZPlxDFh73XZLgvwhhyON2haZGUEhiaY5EjfAdw+d/rQmlcFwdTpMXCSGVk374QbCTlrA==
+  dependencies:
+    object-assign "^4.1.1"
+    react-is "^17.0.1"
+    react-shallow-renderer "^16.13.1"
+    scheduler "^0.20.1"
 
 react-textarea-autosize@^8.1.1:
   version "8.3.0"

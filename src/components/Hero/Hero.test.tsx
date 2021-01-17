@@ -1,9 +1,9 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
+import renderer from "react-test-renderer"
 import { Hero } from "."
 
-test("renders title", () => {
-  render(<Hero title="title1"/>)
-  const titleElement = screen.getByText(/title1/i)
-  expect(titleElement).toBeInTheDocument()
+test("renders correctly", () => {
+  const tree = renderer.create(<Hero title="Some Text" />).toJSON()
+  expect(tree).toMatchSnapshot()
 })

@@ -29,6 +29,8 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "@next/plugin-storybook": "^10.0.5",
     "@storybook/addon-actions": "^6.1.14",
     "@storybook/addon-essentials": "^6.1.14",
@@ -58,6 +60,7 @@
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
     "postcss-loader": "^4.1.0",
+    "react-test-renderer": "^17.0.1",
     "sharp": "^0.27.0",
     "storybook": "^6.1.14",
     "storybook-addon-next-router": "^2.0.3",
@@ -75,16 +78,15 @@
   ],
   "jest": {
     "testPathIgnorePatterns": [
-      "<rootDir>/.next/",
-      "<rootDir>/node_modules/",
-      "<rootDir>/.storybook/"
+      "./.next/",
+      "./node_modules/",
+      "./.storybook/"
     ],
     "transform": {
       "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
     },
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+      "\\.svg": "<rootDir>/__mocks__/svgrMock.js"
     }
   }
 }
