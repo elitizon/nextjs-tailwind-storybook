@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>favicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ElitizonFavicon" transform="translate(-187.000000, -109.000000)">
+            <g id="favicon" transform="translate(189.000000, 111.000000)">
+                <rect id="background" stroke="#FA3366" stroke-width="3" fill="#F6F6F6" x="0" y="0" width="80"
+                    height="80" rx="40"></rect>
+                <g id="icon" transform="translate(17.000000, 19.000000)">
+                    <path
+                        d="M21.3702857,41.5489524 C27.2845714,41.5489524 31.3020181,42.0024879 36.3033202,37.9894671 L32.3828171,31.0938095 C30.1748171,33.3806667 25.0765714,32.7958095 21.528,32.7958095 C14.7462857,32.7958095 10.5668571,29.3260952 9.936,24.5158095 L40.296,24.5158095 C41.7942857,8.50780952 33.672,0.464380952 20.6605714,0.464380952 C8.04342857,0.464380952 -6.22570778e-14,8.98095238 -6.22570778e-14,20.8095238 C-6.22570778e-14,33.2689524 7.96457143,41.5489524 21.3702857,41.5489524 Z M31.0697143,16.5512381 L10.0937143,16.5512381 C11.5131429,11.504381 15.7714286,8.98095238 20.976,8.98095238 C26.496,8.98095238 30.4388571,11.504381 31.0697143,16.5512381 Z"
+                        id="elitizon" fill="#2A3045" fill-rule="nonzero"></path>
+                    <rect id="Rectangle" fill="#FA3366" x="35.4024762" y="27.3809524" width="9.61619048"
+                        height="9.61619048" rx="4.80809524"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

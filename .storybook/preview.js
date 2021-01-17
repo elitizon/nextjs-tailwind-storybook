@@ -1,11 +1,9 @@
 // .storybook/preview.js
 import { themes } from "@storybook/theming"
-import { withNextRouter } from "storybook-addon-next-router"
 
-import "../styles/tailwind.css"
+import "../src/styles/tailwind.css"
 
 import * as nextImage from "next/image"
-import { useEffect } from "react"
 
 // or global addParameters
 export const parameters = {
