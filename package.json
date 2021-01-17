@@ -1,15 +1,14 @@
 {
   "name": "nextjs-tailwindcss-storybook",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "prebuild": "cross-env NODE_ENV=production run-s build:tailwind",
     "build": "next build",
-    "start": "npm-run-all build:tailwind --parallel watch:tailwind start:react",
-    "start:react": "next start",
-    "build:tailwind": "tailwind build styles/tailwind.css -o styles/tailwind.output.css",
-    "watch:tailwind": "chokidar '/**/*.css' '/**/*.scss' --ignore styles/tailwind.output.css -c 'npm run build:tailwind'",
+    "start": "next start",
+    "build:tailwind": "tailwind build src/styles/tailwind.css -o src/styles/tailwind.output.css",
+    "watch:tailwind": "chokidar '/**/*.css' '/**/*.scss' --ignore src/styles/tailwind.output.css -c 'npm run build:tailwind'",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },

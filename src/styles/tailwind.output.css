@@ -200,8 +200,7 @@ select { /* 1 */
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button,
-[type='button'] {
+button {
   -webkit-appearance: button;
 }
 
@@ -242,11 +241,6 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-
-[type='search'] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
 
 /**
 Remove the inner padding in Chrome and Safari on macOS.
@@ -516,55 +510,9 @@ video {
   height: auto;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .bg-pink-100 {
   --tw-bg-opacity: 1;
   background-color: rgba(252, 231, 243, var(--tw-bg-opacity));
-}
-
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.block {
-  display: block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -575,57 +523,22 @@ video {
   display: table;
 }
 
-.hidden {
-  display: none;
-}
-
-.flex-auto {
-  flex: 1 1 auto;
+.justify-center {
+  justify-content: center;
 }
 
 .h-screen {
   height: 100vh;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.overflow-auto {
-  overflow: auto;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.fixed {
-  position: fixed;
-}
-
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 * {
@@ -639,6 +552,11 @@ video {
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
+}
+
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgba(4, 120, 87, var(--tw-text-opacity));
 }
 
 .w-full {
