@@ -1,6 +1,7 @@
 # A [NextJS](https://nextjs.org/) template with typescript, tailwindcss and storybook support
 
-> The configuration of NextJS, TailwindCSS and Storybook can be **complex** 😰 so we have decided to make this template public 🎉
+> The configuration of NextJS, TailwindCSS and Storybook can be **complex** 😰 🤪
+> 👉 So we have decided to make this template public 🎉
 
 This project was bootstrapped with [npx create-next-app](https://nextjs.org/learn/basics/create-nextjs-app/setup) and we have added support for:
 
