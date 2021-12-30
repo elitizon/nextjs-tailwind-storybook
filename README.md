@@ -6,7 +6,7 @@
 This project was bootstrapped with [npx create-next-app](https://nextjs.org/learn/basics/create-nextjs-app/setup) and we have added support for:
 
 - ✅ [Typescript](https://www.typescriptlang.org/)
-- ✅ [Taillwindcss](https://www.tailwindcss.com)
+- ✅ [Tailwindcss](https://www.tailwindcss.com)
 - ✅ [Storybook](https://storybook.js.org/)
 - ✅ [Jest](https://jestjs.io/)
 - ✅ [Import SVG as React Component (SVGR)](https://react-svgr.com/) (Thanks to [@neoziro](https://twitter.com/neoziro))
